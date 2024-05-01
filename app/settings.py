@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'options',
     'statistics_quest',
     'questions',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
