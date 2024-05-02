@@ -6,5 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/v1/', include('categorys.urls')),
     path('api/v1/', include('questions.urls')),
+    path('api/v1/', include('options.urls')),
 ]
 
