@@ -2,6 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('categorys/', views.GenreCreateListView.as_view(), name='genre-create-list'),
-    path('categorys/<int:pk>/', views.GenreRetrieveUpdateDestroyView.as_view(), name='genre-detail-view'),
+    path('categorys/', views.CategorysCreateListView.as_view(), name='categorys-create-list'),
+    path('categorys/<int:pk>/', views.CategorysUpdateDestroyView.as_view(), name='categorys-detail-view'),
 ]
